@@ -58,3 +58,15 @@ h3
 {
 	background-color: #2d82d8;
 }
+
+a:focus {
+	outline: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
