@@ -63,6 +63,14 @@ a:focus {
 	outline: 0;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
+ol, ul {
+	margin-bottom: 0px;
+}
+
 ul {
 	list-style: none;
 }
