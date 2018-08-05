@@ -78,3 +78,7 @@ ul {
 ul li {
 	display: inline-block;
 }
+
+.secion-padding {
+	padding: 56px 0;
+}

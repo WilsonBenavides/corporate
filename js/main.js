@@ -31,7 +31,7 @@ jQuery(document).ready(function() {
 	$(window).scroll(function() {
 
 		var top = $(window).scrollTop();
-		if (top>=50) {
+		if (top>=10) {
 			$("header").addClass('secondary-dark-blue-bg');
 		}
 		else
