@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 		circular:true,
 		scroll:{
 			items:1,
-			duration:500,
+			duration: 500,
 			pauseOnHover:true
 		},
 		auto:true,
@@ -19,7 +19,12 @@ jQuery(document).ready(function() {
 				max:1
 			},
 		height:"variable"
+		},
+		pagination: {
+			container:".sliderpager",
+			anchorBuilder: false
 		}
+		
 
 	});
 
