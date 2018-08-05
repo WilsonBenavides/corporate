@@ -28,4 +28,16 @@ jQuery(document).ready(function() {
 
 	});
 
+	$(window).scroll(function() {
+
+		var top = $(window).scrollTop();
+		if (top>=50) {
+			$("header").addClass('secondary-dark-blue-bg');
+		}
+		else
+			if ($("header").hasClass('secondary-dark-blue-bg')) {
+				$("header").removeClass('secondary-dark-blue-bg')
+			}
+	});
+
 });
